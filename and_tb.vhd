@@ -2,11 +2,11 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
 -- entity declaration only; no definition here
-ENTITY phase1_tb_and IS
+ENTITY and_tb IS
 END;
 
 -- Architecture of the testbench with the signal names
-ARCHITECTURE phase1_tb_arch OF phase1_tb_and IS
+ARCHITECTURE phase1_tb_arch OF and_tb IS
   SIGNAL clear_tb, clk_tb : std_logic;
   SIGNAL register_in0_tb, register_in1_tb, register_in2_tb, register_in3_tb, register_in4_tb, register_in5_tb, register_in6_tb, register_in7_tb : std_logic; --enable singals for registers
   SIGNAL register_in8_tb, register_in9_tb, register_in10_tb, register_in11_tb, register_in12_tb, register_in13_tb, register_in14_tb, register_in15_tb : std_logic; --enable singals for registers
