@@ -340,8 +340,7 @@ ARCHITECTURE phase1_tb_arch OF phase1_tb_sub IS
 						register_in_IR_tb <= '0';
 						MDRout_tb <= '0';
 						R4out_tb <= '1'; 
-						register_in_Y_tb <= '1';
-						
+						register_in_Y_tb <= '1';		
 					 WHEN T4 =>
 						R4out_tb <= '0';
 					   register_in_Y_tb <= '0';
