@@ -14,7 +14,7 @@ C : out std_logic_vector(63 downto 0)
 end entity alu; 
 
 
-architecture behav of alu is 
+architecture arch of alu is 
 signal Mulout: std_logic_vector(63 downto 0);
 signal Divout: std_logic_vector(63 downto 0);
 signal addorsub: std_logic;
@@ -100,6 +100,6 @@ else
 	
 end if ;
 end process;
-end architecture behav;
+end architecture arch;
 
 	
