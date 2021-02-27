@@ -13,7 +13,7 @@ Q: out std_logic_vector (31 downto 0));
 end entity reg32;
 
 
-architecture behav of reg32 is 
+architecture arch of reg32 is 
 begin
 	process(clk, clr)
 		begin
@@ -25,4 +25,4 @@ begin
             end if;
         end if;
     end process;
-end behav;
+end arch;
