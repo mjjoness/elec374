@@ -336,7 +336,6 @@ ARCHITECTURE phase1_tb_arch OF and_tb IS
 						register_in_Z_tb <= '1';
 						register_in_Zhigh_tb <= '1';
 						register_in_Zlow_tb <= '1';
-					 
 					 WHEN T5 =>
 						R6out_tb <= '0'; 
 						Zlowout_tb <= '1'; 						
