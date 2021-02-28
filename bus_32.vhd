@@ -35,9 +35,9 @@ port(
 	
 	bus_mux_out : out std_logic_vector (31 downto 0)
 );
-end entity bus;
+end entity bus_32;
 
-architecture behavioral of bus_mux32 is
+architecture behavioral of bus_32 is
 begin
 with sel select
 bus_mux_out <= b_r0 when "00000",
